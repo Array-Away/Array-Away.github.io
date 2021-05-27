@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorTemplate
+namespace ArrayAway
 {
 	public class Program
 	{

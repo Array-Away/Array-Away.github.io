@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "BlazorTemplate": {
+    "ArrayAway": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
