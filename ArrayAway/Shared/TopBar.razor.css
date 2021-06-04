@@ -1,0 +1,28 @@
+.root {
+	padding: 10px;
+	background-image: linear-gradient(171deg, #0000a0 0%, #900050 100%);
+	color: hsl(0 0% 78%)
+}
+
+/*
+::deep a:link {
+	text-decoration: none !important;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
+}
+
+::deep a:visited {
+	text-decoration: none !important;
+}
+
+::deep a:hover {
+	text-decoration: none !important;
+}
+
+::deep a:active {
+	text-decoration: none !important;
+}
+ */
