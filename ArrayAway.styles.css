@@ -1,134 +1,85 @@
+/* /Pages/Index.razor.rz.scp.css */
+/* /Shared/Footer.razor.rz.scp.css */
+.root[b-lf96mu8um2] {
+	padding: 10px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
-.page[b-feyq76cjdv] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+#page[b-feyq76cjdv] {
+	display: flex;
+	flex-direction: column;
+}
+
+#h-div[b-feyq76cjdv] {
+	display: flex;
+}
+
+[b-feyq76cjdv] .sidebar {
+	flex-grow: 1;
 }
 
 .main[b-feyq76cjdv] {
-    flex: 1;
+	background-color: hsl(0 0% 79%);
+	flex-grow: 10;
+	padding: 10px;
+}
+/* /Shared/SideBar.razor.rz.scp.css */
+.root[b-iz4zin3ck4] {
+	background-color: hsl(128 52% 47%)
 }
 
-.sidebar[b-feyq76cjdv] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+ul[b-iz4zin3ck4] {
+	margin: 10px;
+	padding: 0;
 }
 
-.top-row[b-feyq76cjdv] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+li[b-iz4zin3ck4] {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 6px;
 }
 
-    .top-row[b-feyq76cjdv]  a, .top-row .btn-link[b-feyq76cjdv] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
-
-    .top-row a:first-child[b-feyq76cjdv] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-feyq76cjdv] {
-        display: none;
-    }
-
-    .top-row.auth[b-feyq76cjdv] {
-        justify-content: space-between;
-    }
-
-    .top-row a[b-feyq76cjdv], .top-row .btn-link[b-feyq76cjdv] {
-        margin-left: 0;
-    }
+[b-iz4zin3ck4] a {
+	text-decoration: none;
+	width: 90%;
+	display: inline-block;
+	background-color: hsl(160 60% 51%);
+	border-radius: 10px;
+	padding: 10px;
 }
 
-@media (min-width: 641px) {
-    .page[b-feyq76cjdv] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-feyq76cjdv] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-
-    .top-row[b-feyq76cjdv] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .main > div[b-feyq76cjdv] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
-}
-/* /Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-odqx4ch4le] {
-    background-color: rgba(255, 255, 255, 0.1);
+[b-iz4zin3ck4] a:active {
+	text-decoration: none;
 }
 
-.top-row[b-odqx4ch4le] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+[b-iz4zin3ck4] a:hover {
+	text-decoration: none;
+}
+/* /Shared/TopBar.razor.rz.scp.css */
+.root[b-fk9n2jmgm6] {
+	padding: 10px;
+	background-image: linear-gradient(171deg, #0000a0 0%, #900050 100%);
+	color: hsl(0 0% 78%)
 }
 
-.navbar-brand[b-odqx4ch4le] {
-    font-size: 1.1rem;
+/*
+::deep a:link {
+	text-decoration: none !important;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
 }
 
-.oi[b-odqx4ch4le] {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
+::deep a:visited {
+	text-decoration: none !important;
 }
 
-.nav-item[b-odqx4ch4le] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
+::deep a:hover {
+	text-decoration: none !important;
 }
 
-    .nav-item:first-of-type[b-odqx4ch4le] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-odqx4ch4le] {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item[b-odqx4ch4le]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-.nav-item[b-odqx4ch4le]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
+::deep a:active {
+	text-decoration: none !important;
 }
-
-.nav-item[b-odqx4ch4le]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-odqx4ch4le] {
-        display: none;
-    }
-
-    .collapse[b-odqx4ch4le] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
-}
+ */
